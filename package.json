@@ -1,0 +1,29 @@
+{
+  "name": "gpt-3.5-chat-bot",
+  "version": "1.0.0",
+  "description": "This is a simple Discord chat bot built using discord.js and the gpt-3.5-turbo model from Open AI. This is the same model used for the popular chatbot Chat GPT.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "global": "^4.4.0",
+    "minecraft-protocol": "^1.43.2",
+    "minecraft-server-util": "^5.4.4",
+    "node-cron": "^3.0.2",
+    "openai": "^3.2.1",
+    "rcon-client": "^4.2.3",
+    "steam-js-api": "^1.1.0",
+    "steamapi": "^2.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
